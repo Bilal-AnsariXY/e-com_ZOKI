@@ -23,12 +23,6 @@ const App = () => {
       </Routes>
     
     </BrowserRouter>
-      {/* <Home></Home> */}
-      {/* <Mens></Mens> */}
-      {/* <Womens></Womens> */}
-      {/* <Kids></Kids> */}
-      {/* <Login></Login> */}
-      {/* <Addtocart></Addtocart>  */}
     </>
   )
 }

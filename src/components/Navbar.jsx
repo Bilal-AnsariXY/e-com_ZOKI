@@ -108,7 +108,15 @@ const Navbar = () => {
 
                                         {
                                            istrue && <h1 className= 'font-bold '>{name}</h1>
+                                           
                                         }  
+                                       {
+                                            !isLogin && <Link to={'/login'}>
+                                             <button className='rounded-sm border bg-gray-200 px-2' onClick={()=>{setNav(!nav)
+                                                setCl(!cl);
+                                             }}>Log In</button>
+                                            </Link>
+                                       } 
                                             
                             </div>
                         )
